@@ -118,25 +118,37 @@ main {
     text-shadow: 1px 1px 1px #ccc;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+section {
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
 #introduction {
-    background-color: #fff;
-    padding: 50px 20px;
+  background-color: #0066cc;
 }
 
 #format {
-    background-color: #f9f9f9;
-    padding: 50px 20px;
+  background-color: #0099cc;
 }
 
 #committee {
-    background-color: #fff;
-    padding: 50px 20px;
+  background-color: #00cccc;
 }
 
 #sponsors {
-    background-color: #f9f9f9;
-    padding: 50px 20px;
+  background-color: #66cccc;
 }
+
 
 /* Form styles */
 form label {
