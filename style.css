@@ -9,7 +9,7 @@ body {
 }
 
 section {
-  color: #fff;
+  color: white;
   padding: 50px;
   text-align: center;
 }
@@ -126,14 +126,14 @@ nav a:hover {
 
 #introduction {
     background-color: #0066cc;
-    padding: 5%;
+    padding: 84px;
     display: block;
     object-fit: grid;
 }
 
 #format {
     background-color: #0099cc;
-    padding: 5%;
+    padding: 22px;
     display: block;
     object-fit: grid;
 }
@@ -167,6 +167,7 @@ section h2 {
     font-size: 28px;
     font-weight: bold;
     margin: 0 0 20px;
+    
 }
 
 section p {
@@ -176,6 +177,16 @@ section p {
 ul li {
     margin-top: 10px;
 }
+
+section a {
+    color: white;
+    text-decoration: underline;
+}
+
+#main {
+    color: black;
+}
+
 /* Form styles */
 form label {
     display: block;
